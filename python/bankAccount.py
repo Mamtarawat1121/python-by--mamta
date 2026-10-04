@@ -10,4 +10,4 @@ class BankAccount:
 account = BankAccount(1000)
 account.deposit(500)
 account.withdraw(300)
-account.display_balance()          
+account.display_balance()        
