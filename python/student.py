@@ -6,3 +6,4 @@ class Student:
      print(f"the student name is {self.__name} , the marks is {self.__marks}")  
 s1 = Student("mayank",98)
 s1.display_info()
+
