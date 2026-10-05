@@ -14,6 +14,6 @@ class PartTimeEmployee(Employee):
         self.monthly_salary = monthly_salary
     def calculate_salary(self):
         return self.monthly_salary
-c1 = PartTimeEmployee(5400)
+c1 = PartTimeEmployee(54000)
 print(c1.calculate_salary())           
     
