@@ -5,3 +5,15 @@ for i in range(0,n):
     if nums[i]> largest:
         largest = nums[i]
 print(largest)     
+
+
+
+a = int(input("enter a first number : "))
+b = int(input("enter a second number : "))
+c = int(input("enter a third number : "))
+if a>=b and a>=c:
+    print("largest number",a)
+elif b>=a and b>=c:
+    print("largrst number ", b) 
+else:
+    print("largest number ",c)    
