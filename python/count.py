@@ -9,3 +9,10 @@ for i in range(1,n+1):
          odd = odd +1
 print("even count = ", even)     
 print("odd count = ", odd)
+
+
+
+
+
+
+
