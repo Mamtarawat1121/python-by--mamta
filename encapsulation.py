@@ -17,4 +17,13 @@ class Person:
         print(f"the person name is {self.__name}  and the age is {self.__age}")
 person = Person("mamta",19)
 
+
+
+
+
+
+
+
+
+
 person.display_info()

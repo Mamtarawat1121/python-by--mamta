@@ -6,7 +6,7 @@ class Circle:
         self.radius = radius
     def area(self):
         return self.pi * self.radius* self.radius    
-s1 = Rectangle(3,5)
+s1 = Rectangle(6,5)
 print(s1.area())   
 
 s2 = Circle(3.14,2) 
