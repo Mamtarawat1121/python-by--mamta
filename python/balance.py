@@ -12,13 +12,18 @@ class BankAccount(ABC):
     bank_name = "Python National Bank"
     total_accounts = 0
 
+
     def __init__(self, name, balance):
         if balance < 0:
+
             raise ValueError("Balance cannot be negative")
 
         self.name = name
         self.__balance = balance
         BankAccount.total_accounts += 1
+
+
+
 
     @property
     def balance(self):
@@ -28,12 +33,18 @@ class BankAccount(ABC):
         if amount <= 0:
             raise ValueError("Invalid deposit amount")
 
+
+
+
         self.__balance += amount
         print(f"Deposited: Rs.{amount}")
 
     def withdraw(self, amount):
         if amount <= 0:
             raise ValueError("Invalid withdrawal amount")
+
+
+
 
         if amount > self.__balance:
             raise InsufficientBalanceError(
