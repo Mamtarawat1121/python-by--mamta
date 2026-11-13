@@ -3,6 +3,7 @@ arr = [64, 25, 12, 22, 11]
 
 n = len(arr)
 
+
 for i in range(n):
     min_index = i
 
